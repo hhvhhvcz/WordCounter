@@ -56,12 +56,12 @@ public class Main {
 		frame.getContentPane().add(lblFilepath);
 		
 		pathField = new JTextField();
-		pathField.setBounds(117, 25, 116, 22);
+		pathField.setBounds(117, 25, 221, 22);
 		frame.getContentPane().add(pathField);
 		pathField.setColumns(10);
 		
 		JButton btnShowData = new JButton("Show data");
-		btnShowData.setBounds(276, 24, 97, 25);
+		btnShowData.setBounds(350, 24, 97, 25);
 		frame.getContentPane().add(btnShowData);
 		
 		JLabel lblNewLabel = new JLabel("Line count:");
@@ -98,7 +98,7 @@ public class Main {
 		frame.getContentPane().add(lblAllCharacters);
 		
 		JButton btnClearAll = new JButton("Clear all");
-		btnClearAll.setBounds(407, 24, 97, 25);
+		btnClearAll.setBounds(470, 24, 97, 25);
 		frame.getContentPane().add(btnClearAll);
 	}
 }
